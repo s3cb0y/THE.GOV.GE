@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  text-align: center;
+  background-color: #0D122B;
+  padding: 10px;
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+  background: black;
+}
+
+.menu li:hover {
+  background: #393838;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
